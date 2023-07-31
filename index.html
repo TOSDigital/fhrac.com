@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript code for smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+          var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+          for (var i = 0; i < smoothScrollTriggers.length; i++) {
+            smoothScrollTriggers[i].addEventListener('click', function(e) {
+              e.preventDefault();
+              var href = this.getAttribute('href');
+              var targetElement = document.getElementById(href.replace('#', ''));
+              var rect = targetElement.getBoundingClientRect();
+              var offset = window.pageYOffset;
+              var targetPosition = rect.top + offset;
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            });
+          }
+        });
+      </script>
+    <title>FHRAC</title>
+</head>
+<body>
+    <section class="homescreen" id="home">
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="assets/images/pexels-polina-kovaleva-6185320.jpg" alt="Slide 1">
+            <div class="carousel-content">
+              <h2>Human Rights</h2>
+              <p>Everyone has the responsibility to respect the human rights of others. Indian Government has particular responsibilities to ensure that human rights are protected. We FHRAC recognize the innate value of each person, regardless of ones’ background/belief/ look like/think. Everyone should respect all and feel included.</p>
+              <p></p>
+              <a href="#ourservices"><button>Know More</button></a>
+            </div>
+          </div>
+          
+          <div class="carousel-slide">
+            <img src="assets/images/pexels-polina-kovaleva-6185320.jpg" alt="Slide 1">
+            <div class="carousel-content">
+              <h2>Lorem Ipsum</h2>
+              <p>FHRAC Forum on Anti-Corruption delivers advanced and practical insights on the latest anti-bribery and corruption enforcement initiatives, global anti-corruption compliance strategies, and bench-marking opportunities for the anti-corruption compliance community.</p>
+              
+              <a href="#ourservices"><button>Know More</button></a>
+            </div>
+          </div>
+          
+          <!--<div class="carousel-slide">
+            <img src="assets/images/pexels-polina-kovaleva-6185320.jpg" alt="Slide 1">
+            <div class="carousel-content">
+              <h2>Lorem Ipsum</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorum unde odio, officiis quisquam vel tempore magni fugiat sint dolore porro at officia culpa adipisci, voluptatem doloribus consequatur hic similique?</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, cupiditate fuga similique iste quam autem tempore laborum, quod incidunt, illum itaque asperiores vero nam reprehenderit pariatur officiis ullam molestiae perferendis.</p>
+              <a href="#ourservices"><button>Know More</button></a>
+            </div>
+          </div>--->
+          
+          <div class="carousel-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <!--<span class="indicator"></span>-->
+          </div>
+        </div>
+        <nav>
+            <a class="homelink" href="index.html"><p class="fontlogo">FHRAC</p></a>
+            <div class="navLinks" id="navLinks">
+                <img src="assets/icons/close-menu-icon.svg" alt="closing-icon" class="close" onclick="hideMenu()">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Fhrac</a></li>
+                    <!---<li><a href="#testimonial">Testimonials</a></li>--->
+                    <li><a href="#footer">Contact Us</a></li>
+                </ul> 
+            </div>
+            <img src="assets/icons/open-menu-iocn.svg" alt="three-line-menu" class="open" onclick="openMenu()">
+        </nav>
+    </section>
+    <!---<section class="brands" id="brand">
+      <div class="brand-carousel-container">
+        <div class="brand-carousel">
+          <div class="brand-slide">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+          </div>
+          <div class="brand-slide">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+          </div>
+          <div class="brand-slide">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+            <img src="assets/images/loreal paris.png" alt="">
+          </div>--->
+          <!-- Add more slides here
+        </div>
+      </div>--->
+          
+    </section>
+    <section class="aboutus hidden" id="about">
+        <h2 class="headings">About Us</h2>
+        <div class="aboutholder">
+            <div class="aboutcontent">
+                <h3>FHRAC</h3>
+                <p class="expl">FHRAC is a Forum for Human Rights & Anti-Corruption dedicated to defending and promoting human rights around the world.</p>
+                <a href="#ourservices"><button>Explore</button></a>
+            </div>
+            <div class="aboutimage">
+              <img src="assets/images/pexels-polina-kovaleva-6185320.jpg" alt="Slide 1">
+            </div>
+        </div>
+    </section>
+    <section class="products hidden" id="products">
+      <h2 class="headings">FHRAC</h2>
+      <div class="fhholder">
+        <div class="fhcontent">
+          <img src="assets/images/Human-Rights.jpg" alt="">
+          <div class="fhcontentin">
+            <h3>Human Rights</h3>
+            <p>Everyone has the responsibility to respect the human rights of others. Indian Government has particular responsibilities to ensure that human rights are protected. We FHRAC recognize the innate value of each person, regardless of ones’ background/belief/ look like/think. Everyone should respect all and feel included.</p>
+            <a href="#ourservices"><button>Explore</button></a>
+          </div>
+        </div>
+        <div class="fhcontent">
+          <div class="fhcontentin">
+            <h3>Anti-Corruption</h3>
+            <p>FHRAC Forum on Anti-Corruption delivers advanced and practical insights on the latest anti-bribery and corruption enforcement initiatives, global anti-corruption compliance strategies, and bench-marking opportunities for the anti-corruption compliance community.</p>
+            <a href="#ourservices"><button>Explore</button></a>
+          </div>
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+        </div>
+        <a href=""><button>Contact Us</button></a>
+      </div>
+    </section>
+    <!---<section class="products hidden" id="products">
+      <h2 class="headings">Quotes</h2>
+      <div class="fhholder">
+        <div class="fhcontent">
+          <img src="assets/images/background-01.jpg" alt="">
+          <div class="fhcontentin">
+            <h3>Raghu Naik (National  President)</h3>
+            <p>“In what terms should we think of these beings, nonhuman yet possessing so very many human-like characteristics? How should we treat them? Surely we should treat them with the same consideration and kindness as we show to other humans; and as we recognize human rights, so too should we recognize the rights of the great apes? Yes.”</p>
+            <a href="#ourservices"><button>Explore</button></a>
+          </div>
+        </div>
+        <div class="fhcontent">
+          <div class="fhcontentin">
+            <h3>Srinath setty (National Vice President)</h3>
+            <p>"Freedom means the supremacy of human rights everywhere. Our support goes to those who struggle to gain those rights or keep them. Our strength is our unity of purpose. To that high concept there can be no end save victory.”</p>
+            <a href="#ourservices"><button>Explore</button></a>
+          </div>
+          <img src="assets/images/background-01.jpg" alt="">
+        </div>
+        <a href=""><button>Contact Us</button></a>
+      </div>
+    </section>--->
+    <!--<section class="teammembers">
+      <h2 class="headings">Our Team</h2>
+      <div class="teamcontainer">
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        <div class="teamcard">
+          <img src="assets/images/Anti-Corrpution.jpg" alt="">
+          <div class="teamdetails">
+            <h4>Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+      </div>
+    </section>---->
+    <!---<section class="testimonial hidden" id="testimonial">
+      <img src="assets/images/pexels-polina-kovaleva-6185320.jpg" alt="Slide 1">
+      <h2>People's Say</h2>
+     
+      <div class="testimonial-slider">
+        <div class="testimonial-slide active">
+          <p class="testimonial-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, maxime recusandae assumenda id voluptatum in minima earum, veniam consequuntur nulla eum dolorem. Obcaecati minima eligendi placeat recusandae excepturi officia. Nisi.</p>
+          <p class="testimonial-author">- Priya Vasanthraj</p>
+        </div>
+        <div class="testimonial-slide">
+          <p class="testimonial-quote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, quam eos! Possimus sit amet consequatur sequi voluptas, incidunt ad, eos iure consectetur quos aperiam maxime voluptatum, temporibus doloremque facere rem?</p>
+          <p class="testimonial-author">- Sandeep Urs</p>
+        </div>
+        <div class="testimonial-slide">
+          <p class="testimonial-quote">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, a fugit sed labore ab ipsa, sequi sapiente molestias quasi nesciunt quos cumque! Deleniti facere modi, corrupti ab expedita voluptatibus! Suscipit.</p>
+          <p class="testimonial-author">- Ravi Hulkoti</p>
+        </div>
+      </div>
+  </section>---->
+
+  <footer id="footer">
+    <!---<img src="images/Vivin-construction-and-engineering-logo-01.png" alt="" class="footerlogo">--->
+    <h3 class="footerlogo">Fhrac</h3>
+    <div class="contact">
+        <div class="cholders">
+            <img src="assets/icons/call-icon.svg" alt="">
+            <a href="tel:919108534937" class="contact">+91 9108534937</a>
+        </div>
+        <div class="cholders">
+            <img src="assets/icons/whatsapp-icon.svg" alt="">
+            <a href="https://wa.me/919108534937" class="contact">+91 9108534937</a>
+        </div>
+        <div class="cholders">
+            <img src="assets/icons/gmail-icon.svg" alt="">
+            <a href="info@fhrac.com" class="contact">info@Fhrac.com</a>
+        </div>
+    </div>
+  </footer>
+  <div class="copyright">
+      <p>&copy;<a class="copy" href="">2023  FHRAC</a>| All Rights Reserved. Design and Developed By<a class="copy" href="https://theonesolution.co.in/"> The One Solution</a></p> 
+  </div>
+    
+    
+
+
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/carosuel.js"></script>
+    <script src="assets/js/brandslider.js"></script>
+    <script src="assets/js/scrollanimation.js"></script>
+</body>
+</html>
